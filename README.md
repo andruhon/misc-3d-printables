@@ -4,13 +4,17 @@ Mostly parametric, built with [FreeCad](https://github.com/FreeCAD/FreeCAD)
 
 
 ## Cycling
-- Chainring guard with 5 holes for 170 W/ x 44T Crankset
-- Clapper for standard bike bell
+|||
+|-|-|
+|![Chainring](images/chainring.png)|Chainring guard with 5 holes for 170 W/ x 44T Crankset|
+||Clapper for standard bike bell|
 
 ## Household
-- Dustbin lid for Tineco Pure One X
-- Sheer Eyelet
-- Leg/estension for wooden bar
-- Wooden bar connector
-- Clips to place between shelf and wall to compensate for wall moulding
+|||
+|-|-|
+|![Eyelet](images/sheer-eyelet.png)|Sheer Eyelet|
+|![Dustbin](images/tinecolidnohole.png)|Dustbin lid for Tineco Pure One X|
+||Leg/estension for wooden bar|
+||Wooden bar connector|
+||Clips to place between shelf and wall to compensate for wall moulding|
 
