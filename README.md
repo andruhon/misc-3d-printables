@@ -36,3 +36,7 @@ Mostly parametric, built with [FreeCad](https://github.com/FreeCAD/FreeCAD)
 |![Keyboard Stand](images/keyboard-stand.png)|Split keyboard stand|
 |![Keyboard Stencil](images/keyboard-stencil.png)|Tiny keyboard experiment stencil|
 
+## Syncing images
+
+Use https://github.com/andruhon/freecad-preview-extractor to extract previews (fcxtc).
+Use https://github.com/andruhon/gaunt-sloth-assistant to update readme.
