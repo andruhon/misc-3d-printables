@@ -26,5 +26,15 @@ Mostly parametric, built with [FreeCad](https://github.com/FreeCAD/FreeCAD)
 
 ## Syncing images
 
-Use https://github.com/andruhon/freecad-preview-extractor to extract previews (fcxtc).
-Use https://github.com/andruhon/gaunt-sloth-assistant to update readme.
+Install Gaunt Sloth Assistnant
+
+```bash
+npm install gaunt-sloth-assistant -g
+```
+
+- Make sure you have API key from your AI provider
+- Make sure FreeCAD is installed. 
+
+Start gaunt sloth with `gth code` and ask it to sync previews.
+
+See https://gaunt-sloth-assistant.github.io/docs for details
