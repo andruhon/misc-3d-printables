@@ -1,6 +1,21 @@
 {
   "llm": {
-    "type": "deepseek",
-    "model": "deepseek-reasoner"
+    "type": "openrouter",
+    "model": "qwen/qwen3-coder"
+  },
+  "GthDevToolsConfig": {
+    "extract_all_previews": {
+      "command": "freecad-preview-extractor --fit",
+      "description": "Generates and extracts previews for all FreeCad (FCStd) files in the project."
+    },
+    "extract_one_preview": {
+      "command": "freecad-preview-extractor --fit -- {relativePathToFreeCadFile}",
+      "description": "Generates and extracts a preview for one FCStd file",
+      "parameters": {
+        "relativePathToFreeCadFile": {
+          "description": "path from project root to FCStd file"
+        }
+      }
+    }
   }
 }
