@@ -12,7 +12,7 @@
             "description": "Generates and extracts previews for all FreeCad (FCStd) files in the project."
           },
           "extract_one_preview": {
-            "command": "freecad-preview-extractor --fit -- {relativePathToFreeCadFile}",
+            "command": "freecad-preview-extractor --fit ${relativePathToFreeCadFile}",
             "description": "Generates and extracts a preview for one FCStd file",
             "parameters": {
               "relativePathToFreeCadFile": {
