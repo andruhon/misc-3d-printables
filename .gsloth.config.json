@@ -1,11 +1,12 @@
 {
   "llm": {
     "type": "openrouter",
-    "model": "qwen/qwen3-coder"
+    "model": "kwaipilot/kat-coder-pro:free"
   },
+  "filesystem": "all",
   "customTools": {
     "extract_all_previews": {
-      "command": "freecad-preview-extractor --fit",
+      "command": "freecad-preview-extractor --ignore-config .aiignore --fit",
       "description": "Generates and extracts previews for all FreeCad (FCStd) files in the project."
     },
     "extract_one_preview": {
