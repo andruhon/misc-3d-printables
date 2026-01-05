@@ -5,16 +5,28 @@
   },
   "filesystem": "all",
   "customTools": {
-    "extract_all_previews": {
+    "extract_all_freecad_previews": {
       "command": "freecad-preview-extractor --ignore-config .aiignore --fit",
-      "description": "Generates and extracts previews for all FreeCad (FCStd) files in the project."
+      "description": "Generates and extracts previews for all FreeCad (.FCStd) files in the project."
     },
-    "extract_one_preview": {
+    "extract_one_freecad__preview": {
       "command": "freecad-preview-extractor --fit ${relativePathToFreeCadFile}",
-      "description": "Generates and extracts a preview for one FCStd file",
+      "description": "Generates and extracts a preview for one FreeCad (.FCStd) file",
       "parameters": {
         "relativePathToFreeCadFile": {
           "description": "path from project root to FCStd file"
+        }
+      }
+    },
+    "extract_one_openscad_preview": {
+      "command": "openscad -o ${relativePathToOutpuFile} --render --backend=Manifold --autocenter --viewall ${relativePathToOpenScadFile}",
+      "description": "Renders a preview for OpenScad (.scad) file",
+      "parameters": {
+        "relativePathToOpenScadFile": {
+          "description": "path from project root to scad file"
+        },
+        "relativePathToOutpuFile": {
+          "description": "path from project root to preview PNG file"
         }
       }
     }
