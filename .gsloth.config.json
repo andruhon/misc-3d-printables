@@ -6,7 +6,7 @@
   "filesystem": "all",
   "customTools": {
     "extract_all_freecad_previews": {
-      "command": "freecad-preview-extractor --ignore-config .aiignore --fit",
+      "command": "freecad-preview-extractor --fit",
       "description": "Generates and extracts previews for all FreeCad (.FCStd) files in the project."
     },
     "extract_one_freecad__preview": {
